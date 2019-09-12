@@ -224,6 +224,10 @@ hr {
 	display: flex;
 }
 
+
+/* SERVICES HEADER */
+
+
 .services-header {
 	align-items: flex-start;
 	flex-flow: column nowrap;
@@ -237,6 +241,8 @@ hr {
 .services-header h1 {
 	font-size: 20px;
 }
+
+/* SERVICES SECTION */
 
 .services-section {
 	justify-content: space-evenly;
@@ -268,8 +274,12 @@ hr {
 
 }
 
+
+/* ABOUT SERVICES */
+
 .about-services {
 	justify-content: space-evenly;
+	flex-flow: row wrap;
 	margin: 20px 40px;
 }
 
@@ -278,6 +288,13 @@ hr {
 	list-style-position: inside;
 	line-height: 25px;
 }
+
+.about-services img {
+	margin-top: 20px;
+}
+
+
+/* FOOTER SECTION */
 
 .services-footer {
 	margin-top: 60px;
